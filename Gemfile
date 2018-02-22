@@ -56,4 +56,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'ffi', '1.9.18'
 
 gem 'jquery-rails', '4.3.1'
-#gem 'pg', '0.20.0'
+
+group :production do
+  gem 'pg', '0.20.0'
+end
